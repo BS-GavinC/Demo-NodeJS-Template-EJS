@@ -2,6 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const http = require('http')
 const url = require('url')
+
+//npm i ejs
 const ejs = require('ejs')
 
 
