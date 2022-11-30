@@ -1,0 +1,13 @@
+<%- include('./partials/_header') %>
+
+<ul>
+
+    <h1>Products 🧀</h1>
+
+    <% for(product of products) { %>
+        <li> <%= product.name %> : <%= product.price %> Euros </li>
+    <% } %>
+
+</ul>
+
+<%- include('./partials/_footer') %>
